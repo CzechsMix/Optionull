@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>9.0</LangVersion>
+        <Nullable>Enable</Nullable>
+        <WarningsAsErrors>CS8600;CS8602;CS8603;CS8634</WarningsAsErrors>
+    </PropertyGroup>
+
+</Project>
