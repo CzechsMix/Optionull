@@ -27,7 +27,7 @@ namespace Optionull
 		
 		public static List<T> ToList<T>(this T? input)
 			where T : class
-			=> input is null ? new List<T>() : new List<T>() { input };
+			=> input is null ? new List<T>(0) : new List<T>(1) { input };
 
 		public static T[] ToArray<T>(this T? input)
 			where T : class
